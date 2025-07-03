@@ -1,10 +1,12 @@
-from django.http import JsonResponse
-from .models import Student
-from django.core.handlers.wsgi import WSGIRequest
-from .serializers import StudentSerializer
 from rest_framework.response import Response
 from rest_framework import status
 from rest_framework.decorators import api_view
+
+from django.core.handlers.wsgi import WSGIRequest
+
+from .models import Student
+from .serializers import StudentSerializer
+
 # Create your views here.
 
 
