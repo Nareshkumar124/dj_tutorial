@@ -1,2 +1,60 @@
-/.venv
-/db.sqlite3
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.pyo
+*.sqlite3
+*.db
+db.sqlite3
+media/
+staticfiles/
+local_settings.py
+
+# If you use dotenv for environment variables
+.env
+.env.*
+
+# Pytest
+.cache/
+.pytest_cache/
+
+# VS Code / JetBrains
+.vscode/
+.idea/
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# MyPy and other tools
+.mypy_cache/
+.dmypy.json
+.pyre/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Docker
+*.pid
+*.log
